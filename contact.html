@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css" />
+    <header>
+      <div class="logo"><a href="index.html"><img src="./logo.png" alt="logo" /></a></div>
+      <div>
+        
+        <nav>
+          <ul>
+            <li><a href="webtech.html"> Web Technology</a></li>
+            <li><a href="Cprogramming.html">C programming</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+            <input type="search" name="search" id="search" />
+            <label for="search">Search</label>
+          </ul>
+        </nav>
+      </div>
+      <div class="button">
+        <button>login</button>
+        <button>signup</button>
+      </div>
+    </header>
+    <div>
+      
+        <div id="form" >
+            <div class="signup">Signup</div>
+            <div class="nabin">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="Enter your name" />
+            </div>
+            <div class="username">
+                <label for="username">Username</label>
+                <input type="text" id="username" placeholder="Enter username" />
+            </div>
+            <div class="email">
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email address"
+                />
+            </div>
+            <div class="password">
+                <label for="password">Password</label>
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Enter your password"
+                />
+            </div><br>
+            <div>
+                <button onclick="formvalidation()">Submit</button> 
+            </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+    
+
+  </body>
+</html>

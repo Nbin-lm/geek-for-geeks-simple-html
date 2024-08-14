@@ -1,0 +1,154 @@
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: 500px;
+    color: aliceblue;
+}
+header{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.logo  {
+    color: aliceblue;
+    cursor: pointer;
+
+}
+.logo img{
+    background-blend-mode:multiply;
+}
+ .button{
+    margin-left: auto;
+    margin-right: 150px;
+}
+.button button {
+    color: white;
+    background-color: green;
+}
+main {
+    padding-left: 20rem;
+    padding-right: 20rem;
+    background-color:rgb(138, 198, 250);
+    text-align: justify;
+    color: aliceblue;
+}
+.gfg {
+    font-size: large;
+    color: blue;
+}
+.geek {
+    width: 250px;
+    align-items: left;
+}
+span {
+    text-align:  center;
+    font-size:large;
+}
+.Company {
+    display: flex;
+    flex-direction: column;
+}
+.Company span{
+    color: blue;
+}
+.Company ul {
+   list-style: none;
+   
+
+}
+footer {
+    display: flex;
+}
+.program ul {
+    list-style: none;
+    
+}
+.langue{ 
+    display:flex;
+    flex-direction: column;
+    color: blue;
+}
+.subject ul {
+    list-style: none;
+}
+.fifth {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    color: blue;
+}
+.subject{ 
+    display:flex;
+    flex-direction: column;
+}
+.system  ul {
+    list-style: none;
+
+}
+.design {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    color: blue;
+}
+.footer-wrapper{
+    display: flex;
+    justify-content: space-around;
+    width:100% ;
+}
+footer {
+    color: aliceblue;
+    background-color:rgb(138, 198, 250);
+
+}
+body {
+    background-color:rgb(138, 198, 250);
+}
+h3 {
+    color: blue;
+}
+.signup {
+    font-size: x-large;
+    color:white;
+}
+input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    cursor: pointer;
+    padding-right: 100px;
+}
+input[type="submit"]:hover {
+    background: #45a049;
+}
+label {
+    margin-bottom: .5em;
+    color: #333333;
+    display: block;
+}
+#form {
+    background-image:url(kokushibo.jpeg);
+    background-size: cover;
+    background-position: center;
+    /* background-color: aliceblue; */
+    /* background: transparent; */
+    width: 600px;
+    font-size: 12px;
+    margin-top:  5%;
+    align-items: center;
+    padding: 10px;margin-left: 20%;
+}
+#form input{
+    width: 250px;
+}
+
+label {
+    color: white;
+    font-size: large;
+    
+}
